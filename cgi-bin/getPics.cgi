@@ -52,7 +52,7 @@ my @shuffled_words = shuffle(@words);
 
 if ($data{tag} eq "")
 {
-$data{tag} = $shuffled_words[0];
+	$data{tag} = $shuffled_words[0];
 }
 else
 {
